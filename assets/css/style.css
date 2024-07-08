@@ -139,7 +139,7 @@ button {
   cursor: pointer;
 }
 
-.service-icon-box i { color: var(--vegas-gold); }
+i { color: var(--vegas-gold); margin: 15px; text-align: center; }
 
 input, textarea {
   display: block;
@@ -555,7 +555,7 @@ main {
   z-index: -1;
 }
 
-.service-icon-box { margin-bottom: 10px; }
+.service-icon-box { margin-bottom: 10px; display: flex; justify-content: center; align-items: center; }
 
 .service-icon-box img { margin: auto; }
 
