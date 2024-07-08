@@ -28,6 +28,8 @@
     - custom css link
   -->
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
 
   <!--
     - google font link
@@ -197,8 +199,12 @@
             <button class="navbar-link" data-nav-link>Blog</button>
           </li> -->
 
-          <li class="navbar-item">
+          <!-- <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Contact</button>
+          </li> -->
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Service</button>
           </li>
 
         </ul>
@@ -696,42 +702,52 @@
         - #CONTACT
       -->
 
-      <article class="contact" data-page="contact">
+      <article class="contact" data-page="service">
 
         <header>
-          <h2 class="h2 article-title">Contact</h2>
+          <h2 style="margin-bottom: 40px;" class="h2 article-title">Services</h2>
         </header>
 
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126829.29180932898!2d106.70948950536187!3d-6.595186739327195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c5b7ad0f824b%3A0x4c71fd1b0b8ae76d!2sKota%20Bogor%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1720434911885!5m2!1sid!2sid"
-              width="400" height="300" loading="lazy"></iframe>
-          </figure>
-        </section>
+        <ul class="service-list">
 
-        <section class="contact-form">
-
-          <h3 class="h3 form-title">Contact Form</h3>
-
-          <form action="#" class="form" data-form>
-
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+          <a href="https://ticket.stresslo.com" class="service-item">
+            <div class="service-icon-box">
+              <i class="fa-solid fa-ticket fa-2xl"></i>
             </div>
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title">QR Code Ticket</h4>
+              <p class="service-item-text">
+                QR code tickets are digital tickets using QR codes for quick and secure access to events or locations.
+              </p>
+            </div>
+          </a>
 
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+          <!-- <li class="service-item">
+            <div class="service-icon-box">
+              <img src="./assets/images/icon-design.svg
+              " alt="design icon" width="40">
+            </div>
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title">Web design</h4>
+              <p class="service-item-text">
+                The most modern and high-quality design made at a professional level.
+              </p>
+            </div>
+          </li> -->
 
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
+          <a class="service-item" >
+            <div class="service-icon-box">
+              <i class="fa-solid fa-gear fa-2xl"></i>
+            </div>
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title">Custom Project</h4>
+              <p class="service-item-text">
+                consult and build custom web projects for your business, e.g. Company Profile, Wedding, Product catalogue and other. 
+              </p>
+            </div>
+          </a>
 
-          </form>
-
-        </section>
+        </ul>
 
       </article>
 

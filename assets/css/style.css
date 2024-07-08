@@ -139,6 +139,8 @@ button {
   cursor: pointer;
 }
 
+.service-icon-box i { color: var(--vegas-gold); }
+
 input, textarea {
   display: block;
   width: 100%;
@@ -540,6 +542,7 @@ main {
   padding: 20px;
   border-radius: 14px;
   box-shadow: var(--shadow-2);
+  cursor: pointer;
   z-index: 1;
 }
 
