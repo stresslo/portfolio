@@ -157,3 +157,9 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+window.onload = async () => {
+  const response = await fetch("https://api.vixcera.bid/", { credentials: 'include' })
+  const data = await response.json()
+  console.log(data)
+}
